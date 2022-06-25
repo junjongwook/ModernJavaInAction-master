@@ -9,5 +9,7 @@ public class temp4 {
         int[] ints = stream.toArray();
 
         System.out.println(Arrays.toString(ints));
+        Arrays.stream(ints).limit(5)
+                .forEach(System.out::println);
     }
 }
